@@ -47,7 +47,7 @@ input_feature=['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
 X= data[input_feature]
 #print(X.head()): to check if data is loaded or not
 train_X,test_X,train_y,test_y= tts(X,y,random_state=0)
-print("error using dropiing the value",rfrModel(train_X,test_X,train_y,test_y))
+print("error using dropping the value",rfrModel(train_X,test_X,train_y,test_y))
 
 
 """Using imputer to deal mission value"""
